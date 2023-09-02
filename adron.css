@@ -1,0 +1,396 @@
+table,th,td{
+    border: 3px solid rgb(23, 45, 35);
+    border-collapse: collapse;
+}
+th,td{
+background-color: rgb(243, 208, 143);
+color: rgb(30, 22, 22); text-align: center; padding: 10px 10px; font-size: 12px;
+}
+th{
+font-size: 14px;font-weight: bold; background-color: rgb(112, 146, 32);
+}
+span{
+background-color: aquamarine; font-size: 15px;
+ }
+button{
+    background-color: rgb(25, 235, 120); padding: 15px 15px; border-radius: 15px; margin-bottom: 10px;
+    color: rgb(84, 43, 5); 
+    display: block;
+ }
+
+*{
+margin: 0;
+padding: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+nav{
+width:84% ;
+margin: auto;
+align-items: center;
+display: flex;
+justify-content: space-between;
+padding: 15px 15px;
+background-color: rgb(18, 121, 18); width: 100%;
+z-index: 1;
+}
+
+nav ul li{
+list-style: none; 
+display: inline-block;
+font-size: 20px;
+margin: 15px;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+transition: all 2s ease-out;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 5px 5px;
+border: none;
+}
+
+nav ul{
+flex: 1;
+text-align: right;
+}
+
+nav ul li a:hover{
+color: white;
+}
+.logo{
+width: 4%;
+cursor: pointer;
+margin-left: 25px;
+}
+.container{
+height: 500px;
+text-align: center;
+background-image:linear-gradient(#59388fb3, rgba(52, 103, 66, 0.7)), url(adronuseimg.jpg);
+background-size: cover;
+color: rgb(238, 220, 186);
+background-repeat: no-repeat;
+background-position: center;
+font-size:x-large;
+margin-top: 20px;
+
+width: 100%;
+}
+@media screen and (max-width: 700px){
+    .container{
+        top: 120%;
+        width: 700px;
+        margin-left: -4%;
+    }
+    nav{
+        max-width: 625px;
+        padding: 25px;
+        display: inline-block;
+        height: 100px;
+       
+    }
+    body{
+        max-width: 700px;
+    }
+    .details{
+        text-align: center;
+    }
+    button{
+      margin-left: 43%;
+      margin-top: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .container{
+        top: 120%;
+        max-width: 400px;
+        margin-left: -4%;
+    }
+    nav{
+        width: 340px;
+        padding: 25px;
+        display: inline-block;
+        height: 170px;
+       
+    }
+    body{
+        max-width: 400px;
+    }
+    .details{
+        text-align: center;
+    }
+    button{
+      margin-left: 39%;
+      margin-top: 20px;
+    }
+}
+
+
+h2{
+    color: rgb(85, 235, 85);
+}
+table{
+    width: 80%;
+    margin: auto;
+    position: static;
+    z-index: 2;
+
+}
+h3{
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.table1{
+     background-color: rgb(200, 241, 200); 
+     
+     margin: 10px 10px;   
+}
+.estatetag{
+   background-color: black;
+}
+.ibeju a{
+    color: aquamarine;
+    max-width: 105px;
+    border: 25px;
+    background-color: lightcoral;
+    display: block;
+    padding: 7px 7px;
+}
+.details{
+    text-align: center;
+}
+.submit{
+    margin-left: 47%;
+    margin-bottom: -7%;
+}
+.containerss{
+     width: 100%;
+    height: 100px;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    ;
+}
+.swiper{
+    width: 98%;
+    height: fit-content;
+    padding: 15px 15px;
+    margin: 10px 10px;
+
+}
+.swiper-slide{
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: white;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background: white;
+}
+.navbar-brand img{
+    height: 40px;
+    width: 60px;
+    padding-left: 30px;
+}
+.containers{
+   position: relative;
+    display: flex;
+    z-index: 0;
+   
+}
+img{
+    width: 100%;
+    height: 700px;
+}
+.aboutus{
+    background-image:linear-gradient(#59388fb3, rgba(52, 103, 66, 0.7)), url(bimbopic.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    
+}
+.list{
+    position: absolute;
+    top: 25px;
+    left: 40%;
+}
+.navbar-brands img{
+    height: 40px;
+    width: 60px;
+    padding-left: 30px;
+    top: 25px;
+    position: absolute;
+}
+
+.about{
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    color: white;
+    font-size: 40px;
+
+}
+.menu-bar{
+    margin: 10px;
+    text-align: center;
+    position: static;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 130px;
+    margin: 4px;
+    padding: 2px;
+    left: -30px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+    z-index: 10;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -100px;
+   
+    
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+    
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    display: block;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: right;
+    z-index: 1;
+    
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+ 
+}
+.fa-angle-right{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(0, 100, 0);
+}
+.fa-angle-down{
+    float: right;
+    padding:
+}
+.estateimg img{
+    width: 300px;
+    height: 280px;
+    padding: 10px;
+    position: relative;
+    display: inline-flex;
+}
+.estateimg video{
+    width: 520px;
+    height: 280px;
+    padding: 10px;
+}
+.heros{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #77ee81), url(formimg1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
+form{
+    width: 90%;
+   max-width: 600px;
+
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis: 48%;
+}
